@@ -59,11 +59,11 @@ function Convertor() {
     //     .then((response) => response.json())
     //     .then((data) => console.log(data.conversion_rates));
     let Val1 = json.find((e) => {
-      return e.code == SelectFromReferance.current.value;
+      return e.code === SelectFromReferance.current.value;
     });
 
     let Val2 = json.find((e) => {
-      return e.code == SecondSelectReferance.current.value;
+      return e.code === SecondSelectReferance.current.value;
     });
 
     let Val3 = (InputFromReferance.current.value * Val1.value) / Val2.value;
