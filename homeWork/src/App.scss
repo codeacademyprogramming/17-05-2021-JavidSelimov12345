@@ -1,0 +1,90 @@
+.title{
+  text-align: center;
+}
+.main-div{
+  height: 400px;
+  background-color: #F3F5F7;
+  width:40%;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  position:relative;
+  #lable{
+    position:absolute;
+    top: 12%;
+    left: 15%;
+  }
+  #lable_to{
+    position:absolute;
+    bottom: 23%;
+    left: 15%;
+  }
+  #currencyFrom{
+    position:absolute;
+    top: 21%;
+    right: 15%;
+  }#second{
+    position: absolute;
+    bottom: 16%;
+    left: 74%;
+
+  }
+  #output{
+    position: absolute;
+    left: 23%;
+    bottom: 17%;
+    font-size: 1.3rem;
+    font-weight: bold;
+  }
+
+}
+
+.inputMain{
+  border:none;
+  position:absolute;
+  top:20%;
+  left:15%;
+  box-shadow: 1px 1px 5px 1px #1757F1;
+  display: flex;
+  justify-content: space-between;
+  input{
+    padding:5px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+}
+.currencyFrom{
+  border:none;
+  border-radius: 10px;
+  padding:6px;
+}
+.second-div{
+  position: relative;
+  
+}
+
+#img{
+  margin-top: 36%;
+  margin-left: 27%;
+}
+.but{
+ 
+  margin: auto;
+  
+  width:40%;
+ position: relative;
+  border-radius: 10px;
+  margin-top: 30px;
+  
+  button{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    box-shadow: 1px 1px 5px 1px #1757F1;
+  }
+
+}
+
+
+
